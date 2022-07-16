@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="new.css">
+	<title>NewWeb</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script>
+		document.querySelector('video').defaultPlaybackRate = 2.0;
+		document.querySelector('video').play();
+		var video = document.getElementById("myVideo");
+		var btn = document.getElementById("myBtn");
+		
+		function myFunction() {
+		  if (video.paused) {
+			video.play();
+			btn.innerHTML = "Pause";
+		  } else {
+			video.pause();
+			btn.innerHTML = "Play";
+		  }
+		}
+	</script>
+</head>
+<body>
+			<video autoplay muted loop id="myVideo">
+				<source src="ASTONOMY.mp4" type="video/mp4">
+				Your browser does not support HTML5 video.
+		  </video>
+	<div class="nav">
+		<div class="logo">
+			<h1 class="logo1">Astronomy Club</h1>
+		</div>
+		<div class="links">
+			<ul>
+				<li><a href="#hero">Home</a></li>
+				<li><a href="#">Mission</a></li>
+				<li><a href="#">Vision</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="email">
+			<a href="#">Email Us</a>
+		</div>
+	</div>
+	
+	<div class="center_elements">
+		<div class="center_head">
+			<h1>Astronomy Club</h1>
+		</div>
+		<div class="center_text">
+			<p>All you have to do is look up !!</p>
+		</div>
+		<div class="see_more">
+			<a href="#">Who are we</a>
+		</div>
+		<div>
+			<a href="#about"><i class="fa-solid fa-arrow-down" id="arrow"></i></a>
+		</div>
+		<a href="#"></a>
+	</div>	
+	<section>
+	<div id="about">
+		<section class="about">
+			<div class="main">
+				<div class="tooltip">
+				<img src="Astro.png" alt="Ahmed Khaled">
+				<span class="tooltiptext">ASTRO CLUB</span>
+				</div>
+				<div class="about-text">
+					<h3><span>A</span>stronomy <span>C</span>lub</h3>
+					<h5>Astro & Space <span>Lovers</span></h5>
+					<p>We are a team who is passionate about astronomy and anything related to it. We are looking forward to making an impact on how people see the universe.<br> <br> We began working in 2022, and are planning to keep working as long as we can. <br> <br> we consist of 65 members, we are hoping the number of our club's members increase by time</p>
+					<button type="button">Let's talk</button>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	</section>
+</body>
+</html>
