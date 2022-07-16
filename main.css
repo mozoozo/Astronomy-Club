@@ -1,0 +1,263 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px
+}
+
+#myVideo{
+	position: absolute;
+	width: 100%;
+  }
+
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 30px;
+	position: absolute;
+  	background: rgb(0, 0, 0);
+  	color: #f1f1f1;
+  	width: 96%;
+}
+
+.center_elements{
+	position: absolute;
+	height: 0px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 300px;
+	margin-left: 520px;
+}
+
+.center_elements h1{
+	font-size: 70px;
+	padding: 10px;
+	background-image: url("clusters.jpg");
+	background-repeat: repeat;
+	background-position: center;
+	background-size: small;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.center_text p{
+	margin-left: 70px;
+	font-size: 30px;
+	color: white;
+	padding: 10px;
+	background-image: url("Gala.jpg");
+	background-repeat: repeat;
+	background-position: center;
+	background-size: small;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.see_more a{
+	text-decoration: none;
+	color: black;
+	padding: 15px;
+	border-radius: 30px;
+	transition: 0.4s;
+	display: inline-block;
+	background-color: #dd02cb;
+	margin-left: 217px;
+	margin-top: 30px;
+}
+
+
+.logo1{
+	font-family: 'Rubik Moonrocks', cursive;
+	cursor: pointer;
+	padding: 8px;
+}
+
+
+.links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+
+.links ul li a{
+	text-decoration: none;
+	color: inherit;
+	border: 1px solid #dd02cb;
+	padding: 15px;
+	border-radius: 30px;
+}
+
+.links ul li a:hover{
+	background-color: #dd02cb;
+	color: black;
+	transition: 0.3s;
+}
+
+.email a{
+	text-decoration: none;
+	color: black;
+	padding: 15px;
+	border: 1px solid #dd02cb;
+	border-radius: 30px;
+	transition: 0.4s;
+	display: inline-block;
+	background-color: #dd02cb;
+}
+
+.email a:hover{
+	color: black;
+	transform: scale(1.15);
+}
+
+section{
+	height: 130vh;
+	position: absolute;
+	margin-top: 406px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+section h1{
+	color: red;
+	font-size: 50px;
+	margin-left: 650px;
+	margin-top: 100px;
+}
+
+span{
+	color: #dd02cb;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    padding: 200px 0px;
+    background-image: url("https://wallpapercave.com/wp/wp7795915.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about img{
+    height: 500px;
+    width: 480px;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h3{
+    color: white;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: #dd02cb;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid #dd02cb;
+    cursor: pointer;
+}
+
+.service{
+    height: 200vh;
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url("https://cdn.wallpapersafari.com/94/39/TYjvOI.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #dd02cb;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 2s;
+  }
+  
+  .tooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #dd02cb transparent transparent;
+  }
+
+#arrow{
+	position: absolute;
+	color: white;
+	margin-left: 265px;
+	margin-top: 20px;
+	font-size: 30px;
+}
